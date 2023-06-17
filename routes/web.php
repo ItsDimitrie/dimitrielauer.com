@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactUsFormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,10 +26,9 @@ Route::get('camera', function () {
     return view('Camera-experience');
 });
 
-Route::get('contact', function () {
-    return view('contact');
-});
-
 Route::get('education', function () {
     return view('education');
 });
+
+Route::get('/contact', [ContactUsFormController::class, 'createForm']);
+Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');

@@ -23,7 +23,7 @@
         This is the name I use when working as a camera-operator so you will
         see that coming around very often!
       </p>
-      <img src="img/IMG_8994.gif" id="aboutmefoto">
+      <img src="/img/Kuip-Werkzaamheden.jpeg" id="aboutmefoto">
     </div>
   </section>
 

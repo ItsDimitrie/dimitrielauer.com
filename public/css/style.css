@@ -1,0 +1,322 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-repeat: contain;
+  background-color: black;
+}
+
+#titel {
+  float: inline-start;
+}
+
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+
+#textcenter {
+  color: rgb(250, 250, 250);
+  text-shadow: 1px 1px 5px black, 0 0 25px black, 0 0 5px black;
+  text-align: center;
+  padding: 20px;
+}
+
+#textcenter2 {
+  padding-bottom: 600px;
+  color: rgb(250, 250, 250);
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+#textcenter3 {
+  border: solid black 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+header .col-sm-6 {
+  display: flex;
+  text-align: left;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+  color: white;
+}
+
+#homelink {
+  margin: 1px;
+  border: solid white 1px;
+}
+
+
+p {
+  align-items: center;
+  color: white;
+  width: 1000px;
+  text-align: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url(/img/NOS-Dimi.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+  color: #ffffff;
+  height: 825px;
+  text-align: center;
+}
+
+#aboutmeheader {
+  display: flex;
+  align-items: center;
+  background-image: url(/img/Kuip-werkzaamheden.jpeg);
+  background-position: 0% 45%;
+  color: #ffffff;
+  height: 450px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+#aboutmeheader2 {
+  background-image: url(/img/AJAX-Werkomgeving.jpeg);
+  display: flex;
+  align-items: center;
+  background-position: 0% 55%;
+  color: #ffffff;
+  height: 450px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.col-sm-2 {
+  color: white;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width: 350px;
+  height: 300px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  float: center;
+  font-size: 15px;
+  margin: 20px;
+  align-items: center;
+
+}
+
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+#BOZ {
+  color: white;
+  display: flex;
+}
+
+#Sport {
+  color: white;
+  display: inline-block;
+  margin: 20px;
+}
+
+#Studio {
+  color: white;
+  display: inline-block;
+  margin: 20px;
+}
+
+#Programming {
+  color: white;
+  display: inline-block;
+  margin: 20px;
+}
+
+#sportheader {
+  display: inline-block;
+  background-image: url(img/Dimi-werkzaamheden.jpeg);
+  background-size: fill;
+  color: #ffffff;
+  height: 300px;
+  width: 2000px;
+}
+
+#programpicture {
+  padding-bottom: 40px;
+}
+
+#sportsectie h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#sportfoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+#studiosectie h1 {
+  size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#studiofoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+#customers h1 {
+  size: 20px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#aboutmefoto {
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+#dlLogo {
+  margin-top: 20px;
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+  width: 400px;
+}
+
+/* ----------------- Picture of the day Section ---------------------------------------------------- */
+
+#explanation {
+  display: block;
+  color: white;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 1px 16px 0 rgb(255, 255, 255), 0 6px 20px;
+}
+
+#showImage {
+  color: white;
+  display: block;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+#title {
+  color: white;
+}
+
+#Date_Picker {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
